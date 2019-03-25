@@ -4,7 +4,7 @@ void insSort(int arr[], int numb){
         int j = i - 1;
         while (j >= 0 && arr[j] > v) {
             arr[j + 1] = arr[j];
-            j = j - 1;
+            j--;
         }
         arr[j + 1] = v;
     }
